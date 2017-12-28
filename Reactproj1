@@ -1,0 +1,9 @@
+ReactDOM.render(
+  React.createElement(
+    'tr',
+    null,
+    React.createElement('th', null, 'Firstname'),
+    React.createElement('th', null, 'Lastname'),
+  ),
+  document.getElementById('root')
+);
